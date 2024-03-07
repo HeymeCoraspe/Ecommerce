@@ -77,6 +77,9 @@ const mostrarCarrito= (carrito) =>{
     });
 
    console.log(`Total general: $${total}`);
+
+   const indicadorTotal= document.getElementById( 'totalGeneral');
+   indicadorTotal.innerHTML= ` Total: $${total}`;
 }
 
 
